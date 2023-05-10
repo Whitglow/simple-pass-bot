@@ -40,7 +40,12 @@ class UserData:
     def __init__(self, user_id):
         self.user_id = user_id
         self.data = {}
-        self.file_path = f"users/{self.user_id}.json"
+        self.folder_path = "users"
+        self.file_path = f"{self.folder_path}/{self.user_id}.json"
+
+        if not os.path.exists(self.folder_path):
+            os.makedirs(self.folder_path)
+
         if os.path.exists(self.file_path):
             with open(self.file_path, "rb") as f:
                 encrypted_data = f.read()
