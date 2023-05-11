@@ -1,7 +1,9 @@
 # simple-pass-bot
 This project is a Telegram bot that helps users keep their passwords secure. It uses data encryption with the cryptography library and stores user data in JSON format<br/>
 
-Проект Telegram-бота, который помогает хранить пароли. Бот использует шифрование данных с помощью библиотеки cryptography и сохраняет данные пользователя в формате JSON.
+Проект Telegram-бота, который помогает хранить пароли. Бот использует шифрование данных с помощью библиотеки cryptography и сохраняет данные пользователя в формате JSON.<br/>
+
+**Демонстрация работы бота:** https://t.me/SiPass_bot
 ***
 ## Installation and Setup / Установка и запуск
 
